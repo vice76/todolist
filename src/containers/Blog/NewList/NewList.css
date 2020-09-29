@@ -1,0 +1,73 @@
+body {
+    background-color: #eeeeee;
+}
+
+.NewList {
+    background-color: white;
+    min-height: 600px;
+    width: 450px;
+    margin: 40px auto;
+    border-radius: 15px;
+    justify-content: center;
+
+}
+.NewList h3{
+    padding: 30px 40px;
+    align-content: center;
+}
+
+.NewList p{
+    padding: 2px 150px;
+}
+
+.NewList form input{
+    background-color:  #00bcd4;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: #005086;
+}
+.NewList form input::placeholder {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+.NewList form input:focus, 
+.NewList form button:focus
+{
+    outline: none;
+}
+
+.NewList form button{
+    height: 50px;
+    width: 80px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) and (min-height: 400px){
+    .NewList {
+        width: 350px;
+        height: 300px;
+    }
+    .NewList p{
+        padding: 2px 110px;
+    }
+    .NewList form input{
+        margin-left: 15px;
+       margin-top: 40px;
+    }
+    .NewList form button{
+        margin-left: 5px;
+    }
+    
+}

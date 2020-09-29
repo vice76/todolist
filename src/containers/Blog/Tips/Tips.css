@@ -1,0 +1,48 @@
+.Tips{
+    width: 550px;
+    margin: 40px auto;
+    justify-content: center;
+    overflow: visible;
+}
+
+.Tips h2 {
+    text-align: center;
+    padding: 20px 0px;
+    color:  #005086;
+}
+
+.Tips h4 {
+    color: #7e8a97;
+    text-align: center;
+}
+
+.Tips p{
+   padding: 10px 10px;
+   text-align: left;
+   font-weight: bold;
+}
+
+@media (max-width: 500px) and (min-height: 400px){
+    .Tips {
+        width: 350px;
+        height: 300px;
+    }
+    .Tips h2{
+        padding: 10px 0;
+    }
+    .Tips p{
+        padding: 5px 5px;
+    }
+}
+@media (min-width: 500px) and (min-height: 401px){
+    .Tips {
+        width: 450px;
+        height: 400px;
+    }
+}
+@media (min-width: 1000px) and (min-height: 700px){
+    .Tips {
+        width: 700px;
+        height: 600px;
+    }
+}
